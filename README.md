@@ -1,11 +1,17 @@
-PRI buildout
-====================
+Mailbox Replica Buildout
+========================
 
-This repository contains a buildout. Prepare it by running::
+# You must install the following packages with apt-get:
+- libffi-dev
 
-    python bootstrap.py
+# Clone this repo.
 
-and then run it with::
+# Create a virtual environment inside the cloned code:
+virtualenv sandbox --no-setuptools
 
-    bin/buildout
+# > source /sandbox/bin/activate
+# > python bootstrap.py
+# > bin/buildout
+
+
 
