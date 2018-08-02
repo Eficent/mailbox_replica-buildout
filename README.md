@@ -13,5 +13,5 @@ virtualenv sandbox --no-setuptools
 # > python bootstrap.py
 # > bin/buildout
 
-
+Execute with bin/start_odoo7 --db_user=< > --db_password=<> --db_host localhost
 
